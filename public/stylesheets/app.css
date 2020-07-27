@@ -1,0 +1,17 @@
+i.icon {
+    font-size: 1.5em;
+}
+
+.container.main {
+    margin-top: 7.0em;
+}
+
+#delete {
+    display: inline;
+}
+.fine{
+	border-radius:none;
+}
+select{
+	margin-bottom:1.5em;
+}
