@@ -6,8 +6,9 @@ express        = require("express"),
 app            = express();
 
 // APP 
-// mongoose.connect('mongodb+srv://covid19:OA8EyAafIGbY3551@cluster0.majnc.mongodb.net/covid19?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.connect('mongodb://localhost:27017/IET_COVID_app', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://rgtech:KtuWP5YbG2MUNpdl@cluster0.tuitl.mongodb.net/covid19?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true});
+
+// mongoose.connect('mongodb://localhost:27017/IET_COVID_app', {useNewUrlParser: true, useUnifiedTopology: true});
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
