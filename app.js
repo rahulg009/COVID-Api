@@ -139,10 +139,10 @@ app.post("/help",function(req,res){
 	})
 })
 
-// app.listen(process.env.PORT, process.env.IP, function(){
-//    console.log("IET");
-// });
-
-app.listen(3000,function(){
-	console.log("IET");
+app.listen(process.env.PORT, process.env.IP, function(){
+   console.log("IET");
 });
+
+// app.listen(3000,function(){
+// 	console.log("IET");
+// });
